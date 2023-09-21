@@ -1,3 +1,5 @@
+import styles from '../App.css';
+
 export default function NavBar () {
     return (
         <nav>

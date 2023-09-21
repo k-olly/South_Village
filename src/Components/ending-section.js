@@ -1,4 +1,4 @@
-function EndingSection () {
+export default function EndingSection () {
     return (
         <div className="ending">
             <p id="come">Come join the fun!</p>

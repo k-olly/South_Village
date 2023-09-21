@@ -1,4 +1,4 @@
-export function MainSection () {
+export default function MainSection () {
     return (
         <main>
             <h2>Meet up. Work out. Celebrate.</h2>

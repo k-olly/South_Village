@@ -1,4 +1,4 @@
-export function Quotation () {
+export default function Quotation () {
     return (
         <div className="quotation">
             <aside>"I build my weeknight plans around their events. I can exercise and meet new people every week!"</aside>

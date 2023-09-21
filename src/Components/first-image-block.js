@@ -1,9 +1,13 @@
-export function FirstBlockImages () {
+import sunset from '../images/sunset.jpg';
+import blue from '../images/blue-run.jpg';
+import rainy from '../images/rainy.jpg';
+
+export default function FirstBlockImages () {
     return (
         <div className="images">
-            <img className="run one" src="./images/andrea-leopardi-QVD3Xht9txA-unsplash.jpg"/>
-            <img className="run two" src="./images/lucas-favre-JnoNcfFwrNA-unsplash.jpg"/>
-            <img className="run three" src="./images/sunset.jpg"/>
+            <img className="run one" src={blue} />
+            <img className="run two" src={rainy} />
+            <img className="run three" src={sunset} />
         </div>
     )
 };
